@@ -1,7 +1,7 @@
 let randomNum1=Math.floor(Math.random()*10);
 let randomNum2=Math.floor(Math.random()*10);
 let a = document.getElementById("num1");
-let b = document.getElementById("num2");
+let b = document.getElementById("num");
 a.innerText=randomNum1;
 b.innerText=randomNum2;
 let math = document.getElementById("math");
