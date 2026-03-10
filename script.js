@@ -52,10 +52,11 @@ button.addEventListener("click",function(){
     a.innerText = randomNum1;
     b.innerText = randomNum2;
 
-    let arr1=["divide","plus","minus","multiply"];
+    let arr1=["divide","plus" ,"minus","multiply"];
     let r1 = Math.floor(Math.random()*4);
     operator=arr1[r1];
     math.innerText=operator;
+    
     let temp = document.getElementById("math op");
     
     if(operator== "divide")
